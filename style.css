@@ -1,0 +1,272 @@
+html {
+    height: 100%;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  
+  header{
+      background-color: rgb(224, 96, 96);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  main{
+      background-color: orange;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+  }
+   
+  
+  
+  footer{
+      background-color: rgb(224, 96, 96);
+      display: flex;
+      position: relative;
+  }
+  
+  .aaa{
+      background-color: rgb(224, 96, 96) ;
+  }
+  
+  .imgHeader{
+      width: 100%;
+      position: relative;
+      top: 50px;
+      width: 300px;
+      left: -300px;
+  }
+  
+  .nameHeader{
+      text-align: center;
+      font-family: 'Rubik', sans-serif;
+      font-size: 52px;
+      font-weight: bolder;
+      position: relative;
+      top: -130px;
+      left: 140px;
+  }
+  
+  .mainImg{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      position: relative;
+      width: 1000px;
+  }
+  
+  .mainDesc{
+      top: 400px;
+      position: relative;
+      right: -1050px;
+      width: 800px;
+      font-size:xx-large ;
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  .textNimg{
+      margin: 40px;
+      position: relative;
+      top: -200px;
+      width: 1820px;
+  }
+  
+  
+  button { 
+      width: 700px;
+      border: none;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      position: relative;
+      border-radius: 21%;
+      
+  }
+  
+  button:hover{
+      animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+  
+  @keyframes myAnim {
+      0% {
+          background-position: center top;
+          background-size: 100%;
+      }
+  
+      100% {
+          background-position: center top;
+          background-size: 150%;
+      }
+  }
+  
+  .hrefs{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2px;
+  }
+  
+  
+  .aaa{
+      padding: 0;
+      margin: 0;
+  }
+  
+  .contacts{
+      position: relative;
+      display: flex;
+  
+  }
+  
+  .mail{
+      width: 170px;
+      position: relative;
+      top: 21px;
+      left: 10px;
+  }
+  
+  .vk{
+      width: 100px;
+      position: relative;
+      top: 53px;
+      left: 18px;
+  }
+  
+  .tg{
+      width: 130px;
+      position: relative;
+      top: 36px;
+      left: 18px;
+  }
+  
+  .nameCont{
+      font-family: 'Rubik', sans-serif;
+      position: relative;
+      left: 107px;
+  }
+  
+  .ya{
+      font-family: 'Rubik', sans-serif;
+      position: relative;
+      font-size:x-large;
+      left: 842px;
+      top: 60px;
+      height: 8px;
+  }
+  
+  
+  
+  
+  
+  .button12{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/11_0.jpeg);
+  }
+  
+  .button11{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/5f860c8621bf6-9892-ploskaja-bashnja.jpeg);
+  }
+  
+  .button10{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/5f861c455fae3-91894-bashnja-vysokaja.jpeg);
+  }
+  
+  .button9{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/1.jpg);
+  }
+  
+  .button8{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/ikonostas_2.jpg);
+  }
+  
+  .button7{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/voskreseniya-khristova.jpg);
+  }
+  
+  .button6{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/a95i3348.jpg);
+  }
+  
+  .button5{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/Бывший_дом_Мейера.jpg);
+  }
+  
+  .button4{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/cerkov_ilii_proroka_jjohnnuvbulq.jpg);
+  }
+  
+  .button3{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/qnjw-REm_h4\(1\)\(1\).jpg);
+  }
+  
+  .button2{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/Kozmy_i_demiana_s_primosta.jpg);
+  }
+  
+  .button1{
+      box-shadow: 8px 5px 5px rgb(109, 109, 109);
+      background-image: url(./media/0Bmo61665402578\(2\).jpg);
+      
+  }
+  
+  
+  @media (max-width: 1081px){
+      .imgHeader{
+          width: 100px;
+          position: relative;
+          top: 50px;
+          width: 300px;
+          left: -200px;
+      }
+      .nameHeader{
+          text-align: center;
+          font-family: 'Rubik', sans-serif;
+          font-size: 32px;
+          font-weight: bolder;
+          position: relative;
+          top: -130px;
+          left: 140px;
+      }
+      .mainImg{
+          box-shadow: 8px 5px 5px rgb(109, 109, 109);
+          position: relative;
+          width: 700px;
+          left: 560px;
+          bottom: 90px;
+      }
+      .mainDesc{
+          top: 600px;
+          position: relative;
+          right: -550px;
+          width: 700px;
+          font-size:x-large ;
+          font-family: 'Open Sans', sans-serif;
+  
+      }
+      .ya{
+          font-family: 'Rubik', sans-serif;
+          position: relative;
+          font-size:x-large;
+          left: 82px;
+          top: 60px;
+          height: 8px;
+      }
+  }
+  
+  
